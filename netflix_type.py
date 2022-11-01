@@ -39,7 +39,7 @@ query1 = """SELECT Distinct country, count(type)
 		   FROM nfxtitle
 		   WHERE country != '' AND type='TV Show'
 		   Group by country
-		   Order by count(title) DESC
+		   Order by count(type) DESC
 		   LIMIT 5;"""
 top5_tv_country = cursor.execute(query1).fetchall()
 
@@ -49,7 +49,7 @@ query2 = """SELECT Distinct country, count(type)
 		   FROM nfxtitle
 		   WHERE country != '' AND type='Movie'
 		   Group by country
-		   Order by count(title) DESC
+		   Order by count(type) DESC
 		   LIMIT 5;"""
 top5_movie_country = cursor.execute(query2).fetchall()
 
