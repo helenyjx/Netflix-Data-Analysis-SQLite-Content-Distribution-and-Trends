@@ -54,25 +54,26 @@ Type: `import csv` and `import sqlite3`
 
 ## Generate a script that queries a database via Sqlite
 ### Query 1: Find the top five countries who have the most TV Shows on Netflix
-
+<img width="576" alt="1" src="https://user-images.githubusercontent.com/112274822/199576122-43c2c3de-8f5a-4ac5-b7bb-a75ed7a619f7.png">
 
 ### Query 2: Find the top five countries who have the most movies on Netflix
-
+<img width="558" alt="2" src="https://user-images.githubusercontent.com/112274822/199576182-bf2a8508-692b-47a1-b050-9034c1e595a8.png">
 
 ### Query 3: Find the top five directors who directed the most movies or TV shows on Netflix
-
+<img width="672" alt="3" src="https://user-images.githubusercontent.com/112274822/199576221-a5d89bf4-162c-43d7-b4fc-6cb6ca18276c.png">
 
 ### Query 4: Find the top five directors who have the most movies or TV shows on Netflix are listed in Documentaries
-
+<img width="846" alt="4" src="https://user-images.githubusercontent.com/112274822/199576271-8cae94d2-f938-47c5-818a-c77349f55eeb.png">
 
 ### Query 5: Find the top five directors who have the most adult movies or TV shows in Netlfix
+<img width="686" alt="5" src="https://user-images.githubusercontent.com/112274822/199576326-be1283c2-a568-4b88-b5cc-4a3804ab920a.png">
 
 ## Show all the results after querying data on Terminal
 ### We need to use the print function at netflix_type.py, the code is shown below:
-
+<img width="846" alt="print" src="https://user-images.githubusercontent.com/112274822/199576355-b5292d61-75de-4e92-ad57-77582a6c9080.png">
 
 ### Now, we just need to type: `netflix_type.py` on Terminal to see answers of five research questions
-
+<img width="1028" alt="bash" src="https://user-images.githubusercontent.com/112274822/199576394-8f128cd0-295c-4248-9964-b496389012a1.png">
 
 ## Finally: Commit all changes and then close the database connection
 * `connects.commit()`
