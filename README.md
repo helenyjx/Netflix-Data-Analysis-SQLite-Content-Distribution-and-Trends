@@ -74,7 +74,7 @@ Type: `import csv` and `import sqlite3`
 ### We need to use the print function at netflix_type.py, the code is shown below:
 <img width="846" alt="print" src="https://user-images.githubusercontent.com/112274822/199576355-b5292d61-75de-4e92-ad57-77582a6c9080.png">
 
-### Type: `netflix_type.py` on Terminal to see answers of five research questions:
+### Type: `python netflix_query.py` on Terminal to see answers of five research questions:
 <img width="1028" alt="bash" src="https://user-images.githubusercontent.com/112274822/199576394-8f128cd0-295c-4248-9964-b496389012a1.png">
 
 ## Finally: Commit all changes and then close the database connection
