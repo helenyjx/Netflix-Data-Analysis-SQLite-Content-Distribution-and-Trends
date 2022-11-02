@@ -1,5 +1,0 @@
-pytest
-pylint
-pandas
-faker
-sqlalchemy
