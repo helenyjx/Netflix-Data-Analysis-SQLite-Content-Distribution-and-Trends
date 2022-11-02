@@ -14,7 +14,7 @@ I use the dataset called netflix_titles.csv and netflix_titles.db. This dataset 
 Later, I will explain how I use the command line on Terminal to show each result after querying my local database.
 
 ## Structure Diagram
-
+<img width="1125" alt="Screen Shot 2022-11-02 at 6 46 31 PM" src="https://user-images.githubusercontent.com/112274822/199616814-28fd6544-0117-4172-b462-8bb3ac0a3b79.png">
 
 ## Demo Video Link
 https://teams.microsoft.com/l/message/19:184726d4bec04e6191f11a9c7f59766f@thread.tacv2/1667426741621?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=428262e3-7a97-45de-8ed6-eb751b9cb87c&parentMessageId=1667426741621&teamName=IDS.706.01.F22&channelName=Week%2010%20Demo_Project%203&createdTime=1667426741621&allowXTenantAccess=false
