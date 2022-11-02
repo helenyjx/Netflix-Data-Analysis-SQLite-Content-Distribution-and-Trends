@@ -1,4 +1,4 @@
-name: GitHub Action for Continuous Integration
+name: Python application test with Github Actions
 
 on: [push]
 
