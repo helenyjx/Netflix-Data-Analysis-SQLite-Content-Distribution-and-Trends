@@ -17,7 +17,7 @@ Later, I will show how I use the command line on Terminal to show each result af
 ## Demo Video Link
 
 
-## Advance Preparation
+## Preparation
 ### 1. Build virtual environment
 By building isolated Python virtual environments for them, a virtual environment is a tool that aids in maintaining the separation of dependencies needed by various projects. Therefore, we need to build the devcontainer (Python 3 & 3.10-bullseye) at first.
 
@@ -65,14 +65,14 @@ Type: `import csv` and `import sqlite3`
 ### Query 4: Find the top five directors who have the most movies or TV shows on Netflix are listed in Documentaries
 <img width="846" alt="4" src="https://user-images.githubusercontent.com/112274822/199576271-8cae94d2-f938-47c5-818a-c77349f55eeb.png">
 
-### Query 5: Find the top five directors who have the most adult movies or TV shows in Netlfix
+### Query 5: Find the top five directors who have the most adult movies or TV shows on Netflix
 <img width="686" alt="5" src="https://user-images.githubusercontent.com/112274822/199576326-be1283c2-a568-4b88-b5cc-4a3804ab920a.png">
 
 ## Show all the results after querying data on Terminal
 ### We need to use the print function at netflix_type.py, the code is shown below:
 <img width="846" alt="print" src="https://user-images.githubusercontent.com/112274822/199576355-b5292d61-75de-4e92-ad57-77582a6c9080.png">
 
-### Now, we just need to type: `netflix_type.py` on Terminal to see answers of five research questions
+### Type: `netflix_type.py` on Terminal to see answers of five research questions:
 <img width="1028" alt="bash" src="https://user-images.githubusercontent.com/112274822/199576394-8f128cd0-295c-4248-9964-b496389012a1.png">
 
 ## Finally: Commit all changes and then close the database connection
