@@ -9,7 +9,7 @@ In project 3, the main goal is to generate a script that queries a database by u
 * What are the top five directors who have the most movies or TV shows on Netflix which are listed in Documentaries?
 * What are the top five directors who have the most adult movies or TV shows on Netflix?
 
-Later, I will show how I use the command line on Terminal to show each result after querying my local database.
+Later, I will explain how I use the command line on Terminal to show each result after querying my local database.
 
 ## Structure Diagram
 
