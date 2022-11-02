@@ -75,7 +75,7 @@ Type: `import csv` and `import sqlite3`
 <img width="846" alt="print" src="https://user-images.githubusercontent.com/112274822/199576355-b5292d61-75de-4e92-ad57-77582a6c9080.png">
 
 ### Type: `python netflix_type.py` on Terminal to see answers of five research questions:
-<img width="1028" alt="bash" src="https://user-images.githubusercontent.com/112274822/199576394-8f128cd0-295c-4248-9964-b496389012a1.png">
+<img width="752" alt="Screen Shot 2022-11-02 at 6 57 04 PM" src="https://user-images.githubusercontent.com/112274822/199618114-2638d8d8-3e15-4d00-a034-e54c4d9501ee.png">
 
 ## Finally: Commit all changes and then close the database connection
 * `connects.commit()`
