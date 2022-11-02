@@ -1,4 +1,4 @@
-## Import required modules
+## Set up: import required modules
 import csv
 import sqlite3
 
@@ -6,7 +6,7 @@ import sqlite3
 connects = sqlite3.connect('netflix_titles.db')
 cursor = connects.cursor()
 
-## Step 3: Create a new table called netflix_type1
+## Step 2: Create a new table called netflix_type1
 new_table = '''CREATE TABLE netflix_type00(
  				show_id VAR PRIMARY KEY,
  				type VAR,
@@ -23,11 +23,11 @@ new_table = '''CREATE TABLE netflix_type00(
  				);
  				'''
 
-## Step 4: Insert the new table into the original database, then insert data into table netflix_type by using SQL query
+## Step 3: Insert the new table into the original database, then insert data into table netflix_type by using SQL query
 cursor.execute(new_table)
 insert_data = "INSERT INTO netflix_type00 (show_id, type, title, director,cast,country,date_added,release_year,rating,duration,listed_in,description) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 
-## Step 5: Read each record from netflix_titles.csv file and import its records to new table netflix_type
+## Step 4: Read each record from netflix_titles.csv file and import its records to new table netflix_type
 file = open('netflix_titles.csv')
 records = csv.reader(file)
 cursor.executemany(insert_data, records)
@@ -77,7 +77,7 @@ query5 = """SELECT Distinct director, count(rating)
 		   LIMIT 5;"""
 top5_director_adult = cursor.execute(query5).fetchall()
 
-## Step 6: Show the results after quering data to the terminal
+## Step 5: Show all the results after quering data to the terminal
 ###Query 1
 print('#'* 50)
 print(f"Top five countries who have the most TV Shows in Netlfix:")
